@@ -1,0 +1,13 @@
+
+package LEC8_ObjectAndClass.NumberParaments.Ex3;
+
+public class Overloading {
+
+    public static void printInfo(String name, int age) {
+        System.out.println("Name: " + name + ", Age: " + age);
+    }
+
+    public static void printInfo(int age, String name) {
+        System.out.println("Age: " + age + ", Name: " + name);
+    }
+}

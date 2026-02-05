@@ -1,0 +1,13 @@
+
+package LEC8_ObjectAndClass.Example1;
+
+public class Processor {
+
+    public static void main(String[] args) {
+  
+        Car myCar = new Car("Lamborghini", 2020);
+  
+        myCar.displayDetails(); // Output: Car Model: Toyota Camry, Year: 2020
+    }
+
+}
